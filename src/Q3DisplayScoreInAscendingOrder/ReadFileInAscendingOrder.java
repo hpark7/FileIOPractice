@@ -1,4 +1,4 @@
-package Q2DisplayScoreInAscendingOrder;
+package Q3DisplayScoreInAscendingOrder;
 import java.io.*;
 import java.util.*;
 

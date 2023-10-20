@@ -1,4 +1,4 @@
-package ch5Ex2.Example1;
+package Q6Poem.Example1;
 
 /**
  * Poem.java

@@ -1,9 +1,8 @@
-package Weather;
+package Q5Weather;
 
 
 
 import java.io.*;
-import java.util.*;
 
 public class Weather {
 

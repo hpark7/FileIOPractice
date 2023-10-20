@@ -1,4 +1,4 @@
-package Q2DisplayScoreInAscendingOrder;
+package Q3DisplayScoreInAscendingOrder;
 
 public class Student {
     private String name;

@@ -1,6 +1,9 @@
-package ch5Ex2.Example3;
+package Q6Poem.Example3;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class PoemTester {
@@ -10,7 +13,7 @@ public class PoemTester {
         Poem[] poems = new Poem[3];
 
         try (
-                FileReader file = new FileReader("src/ch5Ex2/Example3/poems.txt");
+                FileReader file = new FileReader("poems.txt");
                 BufferedReader br = new BufferedReader(file);
         ) {
             // Read and create Poem objects from the file
@@ -25,7 +28,7 @@ public class PoemTester {
         Scanner scanner = new Scanner(System.in);
 
         try (
-                PrintWriter pw = new PrintWriter("src/ch5Ex2/Example3/outputs.txt");
+                PrintWriter pw = new PrintWriter("outputs.txt");
         ) {
             // Write poem information to "output.txt" using a loop
             for (int i = 0; i < poems.length; i++) {

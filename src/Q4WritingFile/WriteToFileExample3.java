@@ -1,4 +1,4 @@
-package Q2WritingFile;
+package Q4WritingFile;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

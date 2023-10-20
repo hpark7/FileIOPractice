@@ -1,4 +1,4 @@
-package ch5Ex2.Example2;
+package Q6Poem.Example2;
 
 import java.io.*;
 
@@ -7,7 +7,7 @@ public class PoemTester {
 
         Poem[] poems = new Poem[3];//type is Poem
 
-        try(FileReader fr = new FileReader("src/ch5Ex2/Example2/poems.txt");
+        try(FileReader fr = new FileReader("poems.txt");
             BufferedReader br = new BufferedReader(fr);
         ){
 
@@ -18,7 +18,7 @@ public class PoemTester {
             }
         }
 
-        try(FileWriter fw = new FileWriter("src/ch5Ex2/Example2/outputs.txt");
+        try(FileWriter fw = new FileWriter("outputs.txt");
             BufferedWriter bw = new BufferedWriter(fw) ;   ){
             for (int i = 0; i < poems.length; i++) {
 

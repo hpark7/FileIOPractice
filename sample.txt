@@ -1,0 +1,6 @@
+Cotton Candy 1.50
+Ice Cream 2.50
+Cookies  1.00
+Bagels   2.50
+Pastry   1.99
+

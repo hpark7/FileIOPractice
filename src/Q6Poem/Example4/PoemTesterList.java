@@ -1,5 +1,9 @@
-package ch5Ex2.Example4;
-import java.io.*;
+package Q6Poem.Example4;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

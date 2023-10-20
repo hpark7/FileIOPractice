@@ -1,9 +1,11 @@
-package ch5Ex2.Example3;
+package Q6Poem.Example3;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class PoemTesterList {
 
