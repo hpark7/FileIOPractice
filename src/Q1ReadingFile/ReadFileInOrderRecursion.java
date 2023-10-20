@@ -9,7 +9,15 @@ import java.io.*;
 //
 public class ReadFileInOrderRecursion {
     public static void main(String[] args) {
-        readFileInOrder("data.txt");
+      //  readFileInOrder("data.txt");
+
+
+        try{
+        BufferedReader reader = new BufferedReader(new FileReader("data.txt"));
+        readNextLine(reader);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
     private static void readFileInOrder(String fileName) {
