@@ -19,7 +19,10 @@ public class ReverseFileReaderRecursion {
         try (BufferedReader reader = new BufferedReader(new FileReader("data.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                lines.add(line);
+
+                if (!line.isEmpty()) { // Check if the line is not empty -improved
+                    lines.add(line);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
