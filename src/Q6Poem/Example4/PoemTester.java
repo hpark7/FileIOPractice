@@ -13,7 +13,7 @@ public class PoemTester {
         Poem[] poems = new Poem[3];
 
         try (
-                Scanner fileScanner = new Scanner(new File("src/ch5Ex2/Example4/poems.txt"));
+                Scanner fileScanner = new Scanner(new File("poems.txt"));
         ) {
             // Read and create Poem objects from the file
             for (int i = 0; i < poems.length; i++) {
@@ -24,7 +24,7 @@ public class PoemTester {
         }
 
         try (
-                PrintWriter pw = new PrintWriter(new FileWriter("src/ch5Ex2/Example4/outputs.txt"));
+                PrintWriter pw = new PrintWriter(new FileWriter("outputs.txt"));
         ) {
             // Write poem information to "output.txt" using a loop
             for (int i = 0; i < poems.length; i++) {
